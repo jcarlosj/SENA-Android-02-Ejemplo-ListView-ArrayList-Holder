@@ -43,7 +43,7 @@ public class AnimalesAdapter extends ArrayAdapter<Animal> {
         //-> Accedemos al objeto "Animal" contenido en el indice indicado del ArrayList
         animalPosicion = ( Animal ) this .alAnimales .get( position );
 
-        //-> Inflamos la vista del "layout" creado para el despliegue de cada "item" del "ListView"
+        //-> Inflamos la vista del "layout" creado para el despliegue de cada "item" del "ListView" y lo asignamos a la vista.
         convertView = LayoutInflater .from( this .cContexto ) .inflate( R .layout .list_item_animal, null );
 
         //-> Accedemos a los componentes de "list_item_animals.xml"
