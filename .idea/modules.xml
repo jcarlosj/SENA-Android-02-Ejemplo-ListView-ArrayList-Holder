@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ListViewPersonalizadaArrayAdapter.iml" filepath="$PROJECT_DIR$/ListViewPersonalizadaArrayAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewPersonalizadaArrayAdapterHolder.iml" filepath="$PROJECT_DIR$/ListViewPersonalizadaArrayAdapterHolder.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

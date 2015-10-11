@@ -1,4 +1,4 @@
-package co.jce.sena.listviewpersonalizadaarrayadapter;
+package co.jce.sena.listviewpersonalizadaarrayadapterholder;
 
 /**
  * Created by jce on 8/10/15.

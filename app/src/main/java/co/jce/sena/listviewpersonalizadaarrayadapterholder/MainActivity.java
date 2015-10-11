@@ -1,4 +1,4 @@
-package co.jce.sena.listviewpersonalizadaarrayadapter;
+package co.jce.sena.listviewpersonalizadaarrayadapterholder;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

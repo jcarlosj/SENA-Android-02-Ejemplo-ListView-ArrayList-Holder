@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "co.jce.sena.listviewpersonalizadaarrayadapter"
+        applicationId "co.jce.sena.listviewpersonalizadaarrayadapterholder"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
