@@ -56,9 +56,9 @@ public class AnimalesAdapter extends ArrayAdapter<Animal> {
             //-> Accedemos a los componentes de "list_item_animals.xml"
             //   y se los asignamos al "Holder" para mantenerlos disponibles
             //   Este será el contenedor de las referencias a los componentes de "list_item_animals.xml"
-            this .animalesHolder .ivAnimal            = ( ImageView ) convertView .findViewById( R .id .ivAnimal );
-            this .animalesHolder .tvNombreAnimal      = ( TextView )  convertView .findViewById( R .id .tvNombreAnimal );
-            this .animalesHolder .tvDescripcionAnimal = ( TextView )  convertView .findViewById( R .id .tvDescripcionAnimal );
+            this .animalesHolder .setIvAnimal( ( ImageView ) convertView .findViewById( R .id .ivAnimal) );
+            this .animalesHolder .setTvNombreAnimal( ( TextView ) convertView .findViewById( R .id .tvNombreAnimal ) );
+            this .animalesHolder .setTvDescripcionAnimal( ( TextView )  convertView .findViewById( R .id .tvDescripcionAnimal ) );
             convertView .setTag( this .animalesHolder );    //: Guardamos el "Holder" dentro del "View" para luego poder recuperarlo
         }
 
@@ -66,9 +66,9 @@ public class AnimalesAdapter extends ArrayAdapter<Animal> {
         animalesHolder = ( AnimalesHolder ) convertView .getTag();
 
         //-> Asignamos los valores al los componentes del "list_item_animals.xml" contenidos en el "Holder"
-        this .animalesHolder .ivAnimal .setImageResource( animalPosicion .getIdRecursoImagen() );
-        this .animalesHolder .tvNombreAnimal .setText( animalPosicion .getNombreAnimal() );
-        this .animalesHolder .tvDescripcionAnimal .setText( animalPosicion .getDescripcionAnimal() );
+        this .animalesHolder .getIvAnimal() .setImageResource( animalPosicion .getIdRecursoImagen() );
+        this .animalesHolder .getTvNombreAnimal() .setText( animalPosicion .getNombreAnimal() );
+        this .animalesHolder .getTvDescripcionAnimal() .setText( animalPosicion .getDescripcionAnimal() );
 
         return convertView;
     }
